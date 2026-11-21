@@ -11,7 +11,7 @@
 <body>
 <div class="layout">
     <header class="header">
-        <h1 class="header__title">Лабораторна № 4</h1>
+        <h1 class="header__title">Лабораторна № 5</h1>
         <nav class="nav">
             <a href="index.html" class="nav__link">Головна</a>
             <a href="about.html" class="nav__link">Про нас</a>
@@ -57,7 +57,16 @@
             <div class="news__list">
                 <article class="news-card">
                     <figure class="news-card__media media">
-                        <img class="media__img" src="assets/images/html-code.png" alt="Фото зі студентського заходу" loading="lazy" decoding="async" />
+                        <picture>
+                            <source type="image/avif" srcset="assets/images/html-code.avif">
+                            <source type="image/webp" srcset="assets/images/html-code.webp">
+                            <img
+                                    class="media__img"
+                                    src="assets/images/html-code.png"
+                                    alt="Фото зі студентського заходу"
+                                    width="983" height="388"
+                                    loading="lazy" decoding="async" />
+                        </picture>
                     </figure>
                     <h3 class="news-card__title">Старт навчального веб-проєкту</h3>
                     <p class="news-card__excerpt">Група розпочала роботу над веб-проєктом, який охопить HTML, CSS, JS та React…</p>
@@ -68,7 +77,16 @@
                 </article>
                 <article class="news-card">
                     <figure class="news-card__media media">
-                        <img class="media__img" src="assets/images/layout-template.png" alt="Демонстрація лейаутів на уроці" loading="lazy" decoding="async" />
+                        <picture>
+                            <source type="image/avif" srcset="assets/images/layout-template.avif">
+                            <source type="image/webp" srcset="assets/images/layout-template.webp">
+                            <img
+                                    class="media__img"
+                                    src="assets/images/layout-template.png"
+                                    alt="Демонстрація лейаутів на уроці"
+                                    width="219" height="258"
+                                    loading="lazy" decoding="async" />
+                        </picture>
                     </figure>
                     <h3 class="news-card__title">Flexbox + Grid: практика</h3>
                     <p class="news-card__excerpt">На четвертій лекції розберемо одновимірний та двовимірний лейаути з практикою…</p>
@@ -79,7 +97,16 @@
                 </article>
                 <article class="news-card">
                     <figure class="news-card__media media">
-                        <img class="media__img" src="assets/images/react-symbol.png" alt="React" loading="lazy" decoding="async" />
+                        <picture>
+                            <source type="image/avif" srcset="assets/images/react-symbol.avif">
+                            <source type="image/webp" srcset="assets/images/react-symbol.webp">
+                            <img
+                                    class="media__img"
+                                    src="assets/images/react-symbol.png"
+                                    alt="React logo"
+                                    width="3840" height="2160"
+                                    loading="lazy" decoding="async" />
+                        </picture>
                     </figure>
                     <h3 class="news-card__title">React</h3>
                     <p class="news-card__excerpt">Заплановано вивчення основ React…</p>
